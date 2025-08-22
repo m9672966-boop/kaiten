@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_top">
+  <style>
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      padding: 16px;
+      margin: 0;
+      background: #f9f9f9;
+    }
+    h2 {
+      color: #333;
+    }
+    .quote {
+      font-style: italic;
+      margin: 16px 0;
+      color: #555;
+    }
+    button {
+      background: #6B73FF;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h2>Вдохновляющая цитата:</h2>
+  <div class="quote" id="quote">Загрузка...</div>
+  <button onclick="refreshQuote()">Обновить</button>
+
+  <script src="/js/quotes.js"></script>
+</body>
+</html>
