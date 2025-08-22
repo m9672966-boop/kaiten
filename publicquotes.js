@@ -1,3 +1,3 @@
 app.get('/quotes', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'quotes.html'));
+  res.sendFile(path.join(__dirname, 'quotes.html'));
 });
